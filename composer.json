@@ -1,0 +1,27 @@
+{
+    "name": "outeredge/edge-magento-module-api",
+    "type": "magento-module",
+    "description": "Api Module by outer/edge",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "outer/edge",
+            "email": "support@outeredgeuk.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:outeredge/edge-magento-module-api.git"
+        }
+    ],
+    "extra": {
+        "map": [
+            ["app/code/local/Edge/Api", "app/code/local/Edge/Api"],
+            ["app/etc/modules/Edge_Api.xml", "app/etc/modules/Edge_Api.xml"]
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Edge_Api>
+            <version>1.0.0</version>
+        </Edge_Api>
+    </modules>
+    <global>
+        <models>
+            <edgeapi>
+                <class>Edge_Api_Model</class>
+            </edgeapi>
+        </models>
+    </global>
+</config>

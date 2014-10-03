@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <api>
+        <resources>
+            <edgeapi translate="title" module="edgeapi">
+                <model>edgeapi/api</model>
+                <title>EdgeApi Resource</title>
+                <acl>edgeapi</acl>
+                <methods>
+                    <sales translate="title" module="edgeapi">
+                        <title>Lifetime Sales</title>
+                        <acl>edgeapi/sales</acl>
+                    </sales>
+                </methods>
+                <faults module="edgeapi">
+                    <failed>
+                        <code>102</code>
+                        <message>Could not get lifetime sales.</message>
+                    </failed>
+                </faults>
+            </edgeapi>
+        </resources>
+        <acl>
+            <resources>
+                <edgeapi translate="title" module="edgeapi">
+                    <title>EdgeApi</title>
+                    <sales translate="title" module="edgeapi">
+                        <title>Lifetime Sales</title>
+                    </sales>
+                </edgeapi>
+            </resources>
+        </acl>
+    </api>
+</config>
